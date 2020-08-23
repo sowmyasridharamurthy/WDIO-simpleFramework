@@ -1,0 +1,32 @@
+{
+  "name": "webdriver-io",
+  "version": "1.0.0",
+  "description": "This is webdriverIO framework example. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "\\wdio"
+  ],
+  "author": "Sowmya Sridharamurthy",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/browserstack-service": "^6.4.0",
+    "@wdio/crossbrowsertesting-service": "^6.4.0",
+    "@wdio/local-runner": "^6.4.0",
+    "@wdio/mocha-framework": "^6.4.0",
+    "@wdio/selenium-standalone-service": "^6.4.0",
+    "@wdio/spec-reporter": "^6.4.0",
+    "@wdio/sync": "^6.4.0",
+    "chai": "^4.2.0",
+    "chai-webdriverio": "^1.0.0",
+    "local-runner": "^0.1.1-alpha",
+    "wdio-docker-service": "^2.4.0",
+    "webdriverio": "^6.4.0"
+  },
+  "dependencies": {
+    "@wdio/cli": "^6.4.0",
+    "git": "^0.1.5"
+  }
+}
