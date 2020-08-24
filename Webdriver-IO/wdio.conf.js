@@ -8,7 +8,7 @@ exports.config = {
     // on a remote machine).
     runner: 'local',
     //
-    // ==================
+    // ==================clea
     // Specify Test Files
     // ==================
     // Define which test specs should run. The pattern is relative to the directory
@@ -17,7 +17,7 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './test/specs/**/*.js'
+        './test/**/*.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -90,7 +90,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'http://localhost',
+    baseUrl: 'https://app.hubspot.com/',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
@@ -197,8 +197,8 @@ exports.config = {
      */
      beforeTest: function () {
          const chai = require('chai')
-         const chaiwebdriver = require('chai-webdriverio').default
-         chai.use(chaiwebdriver(browser))
+         const chaiWebdriver = require('chai-webdriverio').default
+         chai.use(chaiWebdriver(browser))
 
         global.assert = chai.assert
         global.should = chai.should
