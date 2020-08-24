@@ -20,12 +20,15 @@ doIsDisplayed(element){
    return element.isDisplayed()
 }
 
-doGetTitle(pageTitle){
+/*doGetTitle(pageTitle){
     browser.waitUntil(function(){
-        return (browser.getTitle() === 'HubSpot Login')
+        return (browser.getTitle() === ' Login')
     },10000, 'title not found')
 
     return browser.getTitle()
+
+
+}*/
 }
-}
+
 module.exports = new ElementUtil()
