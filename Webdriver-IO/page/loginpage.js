@@ -11,6 +11,12 @@ class loginPage {
         get errorMsg() {return $('.alert p')}
         
 
+        //actions
+      /*  getPageTitle(pageTitle){
+            
+           return  elementUtil.doGetTitle('HubSpot Login')
+        }*/
+
         isSignUpLinkExist(){
             return elementUtil.doIsDisplayed(this.signinBtn)
         }
